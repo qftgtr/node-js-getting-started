@@ -88,7 +88,7 @@
 						    	<div class="fh5co-owl-text">
 						    		<h1 class="fh5co-lead to-animate">World-Leading<br>Smart Office Solution</h1>
 									  <h2 class="fh5co-sub-lead to-animate">We Create Healthier and More Efficient Office Life</h2>
-										<input type="email" class="form-control input-lg to-animate-2" id="email" placeholder="Email" style="width:300px"/>
+										<input type="email" class="form-control input-lg to-animate-2" id="email" placeholder="Email" style="width:300px" onchange="setEmail(this)"/>
 										<p class="to-animate-2"><span onclick="subscribe()" class="btn btn-primary btn-lg">contact us</span></p>
 						    	</div>
 						    </div>
@@ -305,9 +305,16 @@
 		});
 	});
       
+      var email;
+      function setEmail(event) {
+        email = event.value;
+      }
+      
       function subscribe() {
-//        console.log
-//        $.ajax('/subscribe')
+        $.ajax('/subscribe', { data: {email: email}})
+          .done(function() {
+            alert('Thank you for contacting OfficeWell. We will get back to you within one business day.');
+          })
       }
 	</script>
 	<!-- End demo purposes only -->
