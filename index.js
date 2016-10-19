@@ -7,10 +7,11 @@ app.use(express.static(__dirname + '/public'));
 
 // views is directory for all template files
 app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+//app.set('view engine', 'ejs');
 
-app.get('/', function(request, response) {
-  response.render('pages/index');
+app.get('/subscribe', function(request, response) {
+  response.send('pages/index.html');
+//  response.render('pages/index.html');
 });
 
 app.listen(app.get('port'), function() {
