@@ -282,6 +282,42 @@
 
 	};
 
+
+// Download
+	var downloadAnimate = function() {
+
+		if ( $('#app-download').length > 0 ) {
+			$('#app-download .to-animate').each(function( k ) {
+
+				var el = $(this);
+
+				setTimeout ( function () {
+					el.addClass('fadeInUp animated');
+				},  k * 200, 'easeInOutExpo' );
+
+			});
+		}
+
+	};
+	var downloadWayPoint = function() {
+
+		if ( $('#app-download').length > 0 ) {
+			$('#app-download').waypoint( function( direction ) {
+
+				if( direction === 'down' && !$(this).hasClass('animated') ) {
+
+
+					setTimeout(downloadAnimate, 200);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			} , { offset: '95%' } );
+		}
+
+	};
+
 	// Enterprise
 	var enterpriseAnimate = function() {
 
@@ -477,6 +513,7 @@
 		aboutWayPoint();
 		cubeWayPoint();
 		appWayPoint();
+		downloadWayPoint();
 		enterpriseWayPoint();
 		cooperateWayPoint();
 		testimonialsWayPoint();
