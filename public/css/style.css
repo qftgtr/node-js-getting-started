@@ -35,7 +35,7 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,13 +48,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 36px;
   font-weight: 300;
   color: #444;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   position: relative;;
   display: block;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   line-height: 1.5;
 }
 
+#dash {
+  color: #0875a9;
+}
 ::-webkit-selection {
   color: #818892;
   background: #f9f6f0;
@@ -268,17 +271,19 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   width: 100%;
   padding-bottom: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   clear: both;
 }
 .section-heading h2 {
   font-size: 36px;
   font-weight: 300;
   color: #444;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   position: relative;
   display: block;
-  padding-bottom: 20px;
+  margin-top: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   line-height: 1.5;
 }
 .section-heading h2:after {
@@ -494,11 +499,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #officewell-app .box {
-  padding: 30px;
-  background: #fff;
+  padding-bottom: 0px;
+  /*background: #fff;*/
   text-align: center;
   color: #7f7f7f;
-  margin-bottom: 70px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
   position: relative;
 }
 @media screen and (max-width: 992px) {
@@ -535,21 +542,7 @@ h1, h2, h3, h4, h5, h6 {
 #officewell-app .box .icon.colored-1 {
   background: #0875A9;
 }
-/*#officewell-app .box .icon.colored-2 {
-  background: #00bff3;
-}
-#officewell-app .box .icon.colored-3 {
-  background: #f26522;
-}
-#officewell-app .box .icon.colored-4 {
-  background: #e52b50;
-}
-#officewell-app .box .icon.colored-5 {
-  background: #2fc5cc;
-}
-#officewell-app .box .icon.colored-6 {
-  background: #146F9F;
-}*/
+
 #officewell-app .box .step-number {
   font-size: 16px;
   display: block;
@@ -557,7 +550,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
 #officewell-app .box h3 {
   margin: 0 0 20px 0;
@@ -800,7 +793,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
