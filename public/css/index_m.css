@@ -1,0 +1,75 @@
+#nav{width: 100%;background-color: #353434;height: 1rem;position: relative;}
+#nav .logo{position: absolute;left: 50%;top: 50%;transform: translateX(-50%) translateY(-50%);-webkit-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);}
+#nav .logo h1 img{width: 80%;height: 80%;margin-left: 10%;margin-top: 3%;}
+.swiper-slide{width: 100%;height: 3.48rem;}
+.swiper-slide img{width: 100%;height: 100%;}
+
+#banner{width: 100%;height: 5.87rem;}
+#banner .swiper-container{height: 5.87rem;}
+#banner .swiper-container img{height: 5.87rem;}
+
+#smnews{margin-top: .7rem;padding: 0 .4rem;}
+#smnews .sm{width: 100%;margin-bottom: .5rem;}
+#smnews .sm .newCon{text-align: center;}
+#smnews .sm .newCon h2{margin-bottom: .4rem;}
+#smnews .sm .newCon p{margin-bottom: .2rem;}
+#smnews .line{width: 100%;height: .02rem;background: #e2e2e2;margin-bottom: .4rem;}
+
+#brain{padding: 0 .4rem;background-color: #eee;text-align: center;padding-top: .2rem;padding-bottom: .4rem;}
+#brain h2{line-height: .5rem;font-size: .36rem;color: #515151;padding-top: .4rem;margin-bottom: .26rem;}
+#brain h2 b{font-size: .36rem;}
+#brain h4{line-height: .4rem;font-size: .26rem;color: #505050;font-weight: normal;}
+
+#bar{width: 100%;background: url('http://ooyaqsogx.bkt.clouddn.com/of-m-THE BAR.jpg') no-repeat;background-size: 100% 100%;height: 4.23rem;}
+
+#app{background-color: #fff;padding: 0 .4rem;padding-bottom: .4rem;}
+#app h3{text-align: center;padding-top: .4rem;font-size: .36rem;padding-bottom: .3rem;}
+#app .line{width: 100%;height: 0.04rem;background: #eee;margin-top: .1rem;margin-bottom: .5rem;}
+#app .step{width: 100%;margin-bottom: .4rem;}
+#app .step .icon{background-repeat: no-repeat;background-position: left bottom;width: 1rem;height: 1rem;margin: 0 auto;}
+#app .step h4{text-align: center;font-size: .32rem;margin-top: .2rem;margin-bottom: .2rem;color: #feba01;}
+#app .step p{text-align: center;}
+
+#mange{padding: 0 .4rem;background-color: #eee;text-align: center;padding-top: .2rem;padding-bottom: .4rem;}
+#mange h2{line-height: .5rem;font-size: .32rem;color: #515151;padding-top: .4rem;margin-bottom: .26rem;}
+#mange h2 b{font-size: .36rem;}
+#mange h4{line-height: .4rem;font-size: .26rem;color: #505050;font-weight: normal;}
+
+#floorPlan{width: 100%;}
+#floorPlan .floortext{width: 100%;text-align: center;background: url('http://ooyaqsogx.bkt.clouddn.com/floorimg1.jpg') no-repeat;background-size: 100% 100%;}
+#floorPlan .floortext h3{line-height: .5rem;color: #fec12a;font-size: .36rem;padding-top: .4rem;margin-bottom: .26rem;letter-spacing: .05rem;}
+#floorPlan .floortext h4{font-size: .28rem;color: #fff;margin-bottom: .2rem;}
+#floorPlan .floortext p{font-size: .24rem;line-height: .4rem;padding-bottom: .4rem;color: #fff;}
+#floorPlan .floorimg{padding: .4rem;}
+#floorPlan .floorimg img{width: 100%;height: 100%;}
+
+#station{padding: 0 .4rem;background-color: #eee;text-align: center;padding-top: .2rem;padding-bottom: .4rem;}
+#station h2{line-height: .5rem;font-size: .32rem;color: #515151;padding-top: .4rem;margin-bottom: .26rem;}
+#station h2 b{font-size: .36rem;}
+
+#fourspecial{width: 100%;height: 13.18rem;background: url('http://ooyaqsogx.bkt.clouddn.com/of-m-fourspe.jpg') no-repeat;background-size: 100% 100%;}
+
+#crossPlatform{width: 100%;height: 10.74rem;background: url('http://ooyaqsogx.bkt.clouddn.com/of-m-demo.jpg') no-repeat;background-size: 100% 100%;}
+#crossPlatform h3{padding-top: .5rem;padding-bottom: .36rem;text-align: center;font-size: .36rem;color: #fff;font-weight: normal;letter-spacing: .05rem;}
+#crossPlatform p{font-size: .24rem;line-height: .42rem;color: #fff;text-align: center;}
+#crossPlatform span{font-size: .24rem;line-height: .42rem;color: #fff;text-align: center;display: block;}
+
+#process{width: 100%;height: 11.3rem;background: url('http://ooyaqsogx.bkt.clouddn.com/of-m-Process.jpg') no-repeat;background-size: 100% 100%;}
+#process h2{padding-top: .44rem;padding-bottom: .13rem;color: #fff;font-size: .36rem;text-align: center;letter-spacing: .05rem;}
+#process .threestep{margin-top: .4rem;text-align: center;color: #ddd;}
+#process .threestep h3{color: #fec12a;font-size: .28rem;margin-bottom: .32rem;}
+#process .threestep p{margin-bottom: .32rem;font-size: .24rem;}
+#process .threestep span{display: block;line-height: .36rem;}
+#process .threestep .line{width: 1.96rem;height: .02rem;background: #fec006;margin: .4rem auto 0;}
+
+#partner{padding: 0 .4rem .1rem;background: url('http://ooyaqsogx.bkt.clouddn.com/of-partner.jpg');}
+#partner h2{text-align: center;padding-top: .4rem;font-size: .36rem;padding-bottom: .5rem;letter-spacing: .05rem;}
+#partner img{display: block;margin: 0 auto;margin-bottom: .8rem;}
+
+#bottom{text-align: center;padding: 0 .4rem .3rem;background-color: #343434;color: #fff;}
+#bottom h2{padding-top: .4rem;font-size: .38rem;padding-bottom: .4rem;letter-spacing: .05rem;}
+#bottom p{font-size: .26rem;line-height: .4rem;color: #9c9c9c;}
+#bottom ul{height: 40px;width: 262px;margin: 0 auto;margin-top: .2rem;margin-bottom: .2rem;}
+#bottom ul li{float: left;padding-right: 8px;}
+#bottom span{color: #9c9c9c;}
+#bottom span i{font-style: normal;color: #4265ae;}

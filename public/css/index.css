@@ -1,0 +1,114 @@
+#nav{width: 100%;background-color: #353434;height: 68px;}
+#nav .navCon{width: 990px;height: 68px;margin: 0 auto;}
+#nav .navCon .logo{padding-top: 12px;float: left;}
+#nav .navCon .mynav{float: right;}
+#nav .navCon .mynav ul{height: 68px;}
+#nav .navCon .mynav ul li{float: left;}
+#nav .navCon .mynav ul li a{color: #858585;font-size: 16px;height: 68px;line-height: 68px;padding: 0px 17px;display: block;position:relative; z-index:3;}
+#nav .navCon .mynav ul li a:hover{color: #fec006;}
+#nav .navCon .mynav li.back {border-bottom: 4px solid #fec006;height:68px;z-index: 1;position: absolute;width: 0px;}
+.fixedNav{position: fixed;top: 0;z-index: 9999;}
+
+#banner{width: 100%;height: 648px;position: relative;}
+#banner .flexslider{height: 648px;}
+#banner .banner1{background: url('http://ooyaqsogx.bkt.clouddn.com/of-banner.jpg') no-repeat;background-size: 100% 100%;position: relative;width: 100%;height: 648px;}
+#banner .banner1 h1{font-size: 66px;text-align: center;color: #fff;padding-top: 200px;line-height: 66px;margin-bottom: 30px;}
+#banner .banner1 .bor{width: 666px;height: 71px;border: 1px solid #fff;margin: 0 auto;}
+#banner .banner1 .bor h3{line-height: 71px;text-align: center;font-size: 24px;color: #fff;}
+#banner .banner1 .email{width: 190px;height: 40px;position: absolute;top: 450px;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);border: 0;border-radius: 10px;background-color: #5c5c5c;text-align: center;color: #fff;}
+#banner .banner1 .read{cursor: pointer;width: 100px;height: 40px;background-color: #feba01;border: 0;color: #fff;font-size: 18px;border-radius: 8px;top: 506px;position: absolute;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);}
+#banner .banner3{background: url('http://ooyaqsogx.bkt.clouddn.com/of-banner3.jpg') no-repeat;background-size: 100% 100%;position: relative;width: 100%;height: 648px;}
+#banner .banner3 .ofIOS{width: 293px;height: 60px;border: 2px solid #fff;display: block;position: absolute;left: 24.2%;top: 348px;}
+#banner .banner3 .ofIOS img{width: 32px;height: 38px;margin-top: 10px;margin-left: 37px;float: left;margin-right: 20px;}
+#banner .banner3 .ofIOS p{font-size: 24px;color: #fff;float: left;margin-top: 15px;}
+#banner .banner3 .ofAndroid{width: 293px;height: 60px;border: 2px solid #fff;display: block;position: absolute;left: 24.2%;top: 420px;}
+#banner .banner3 .ofAndroid img{width: 32px;height: 38px;margin-top: 10px;margin-left: 37px;float: left;margin-right: 20px;}
+#banner .banner3 .ofAndroid p{font-size: 24px;color: #fff;float: left;margin-top: 15px;}
+#banner .flex-control-paging li a.flex-active{background: #fec006;}
+#banner .flex-control-paging li a:hover{background: #fec006;}
+
+#smnews{width: 100%;height: 300px;}
+#smnews .smnewsCon{width: 910px;margin: 0px auto;height: 210px;padding-top: 47px;}
+#smnews .smnewsCon .sm{width: 454px;height: 210px;float: left;color: #505050;}
+#smnews .smnewsCon .sqt{width: 14px;height: 14px;background-color: #feba01;float: left;margin-top: 34px;margin-right: 18px;}
+#smnews .smnewsCon .newCon{float: left;margin-top: 23px;}
+#smnews .smnewsCon .newCon h2{font-size: 24px;line-height: 36px;margin-bottom: 22px;}
+#smnews .smnewsCon .newCon p{font-size: 16px;line-height: 30px;}
+#smnews .smnewsCon .line{width: 2px;height: 210px;background-color: #e2e2e2;float: left;}
+
+#brain{width: 100%;height: 178px;background-color: #eee;text-align: center;}
+#brain h2{font-size: 30px;color: #515151;padding-top: 40px;margin-bottom: 13px;letter-spacing: 6px;}
+#brain h2 b{font-size: 36px;}
+#brain h4{line-height: 30px;font-size: 16px;color: #505050;font-weight: normal;letter-spacing: 2px;}
+
+#bar{width: 100%;height: 648px;background: url('http://ooyaqsogx.bkt.clouddn.com/of-THE BAR.jpg') no-repeat;background-size: 100% 100%;z-index: 8;}
+
+#app{width: 100%;height: 648px;background-color: #fff;position: relative;}
+#app .thisApp{width: 31.25%;height: 648px;position: absolute;right: 24%;}
+#app .thisApp h3{font-size: 30px;padding-top: 73px;margin-bottom: 20px;letter-spacing:5px;}
+#app .thisApp h3 b{font-size: 36px;}
+#app .thisApp .line{width: 532px;height: 2px;background-color: #e3e3e3;margin-bottom: 47px;}
+#app .thisApp .step{margin-bottom: 45px;height: 58px;}
+#app .thisApp .step .icon{width: 88px;height: 58px;background-repeat: no-repeat;background-position: left bottom;float: left;}
+#app .thisApp .step .stepText{float: left;}
+#app .thisApp .step .stepText h4{font-size: 24px;color: #feba01;margin-bottom: 6px;cursor: pointer;}
+#app .thisApp .step .stepText p{font-size: 16px;}
+#app .mobile{width: 20.6%;height: 698px;position: absolute;top: -50px;left: 21.8%;background: url('http://ooyaqsogx.bkt.clouddn.com/webwxgetmsgimg (16).jpg') no-repeat;background-size: 100% 100%;z-index: 13;}
+#app .flexslider{width: 20.6%;height: 698px;position: absolute;top: -50px;left: 21.8%;z-index: 12;background: url('http://ooyaqsogx.bkt.clouddn.com/webwxgetmsgimg (16).jpg') no-repeat;background-size: 100% 100%;}
+.slides,.slides li,.slides li a{height: 698px;}
+.slides img{width: 100%;height: 100%;vertical-align: center;}
+
+#mange{width: 100%;height: 178px;background-color: #eee;text-align: center;}
+#mange h2{font-size: 30px;color: #515151;padding-top: 40px;margin-bottom: 13px;letter-spacing: 6px;}
+#mange h2 b{font-size: 36px;}
+#mange h4{line-height: 30px;font-size: 16px;color: #505050;font-weight: normal;letter-spacing: 2px;}
+
+#floorPlan{width: 100%;height: 1300px;}
+#floorPlan .floor{width: 100%;height: 648px;}
+#floorPlan .floor .floortext{text-align: right;padding-right: 9.9%;padding-top: 148px;width: 40.1%;height: 500px;background: url('http://ooyaqsogx.bkt.clouddn.com/floorimg1.jpg') no-repeat;background-size: 100% 100%;float: left;}
+#floorPlan .floor .floortext h3{color: #fec12a;font-size: 24px;font-weight: normal;margin-top: 13px;}
+#floorPlan .floor .floortext h4{font-size: 18px;color: #fff;margin-top: 40px;margin-bottom: 10px;}
+#floorPlan .floor .floortext p{font-size: 16px;line-height: 26px;color: #fff;}
+#floorPlan .floor .floorimg{float: left;width: 50%;height: 648px;}
+#floorPlan .floor .floortext2{text-align: left;padding-left: 9.9%;padding-top: 148px;width: 40.1%;height: 500px;background: url('http://ooyaqsogx.bkt.clouddn.com/floorimg2.jpg') no-repeat;background-size: 100% 100%;float: left;}
+#floorPlan .floor .floortext2 h3{color: #fec12a;font-size: 24px;font-weight: normal;margin-top: 13px;}
+#floorPlan .floor .floortext2 h4{font-size: 18px;color: #fff;margin-top: 40px;margin-bottom: 10px;}
+#floorPlan .floor .floortext2 p{font-size: 16px;line-height: 26px;color: #fff;}
+#floorPlan .floor .floorimg img{padding-left: 44px;padding-top: 100px;}
+
+#station{width: 100%;height: 178px;background-color: #eee;text-align: center;}
+#station h2{font-size: 30px;color: #515151;line-height: 178px;letter-spacing: 6px;}
+#station h2 b{font-size: 36px;}
+
+#fourspecial{width: 100%;height: 648px;background: url('http://ooyaqsogx.bkt.clouddn.com/of-fourspe.jpg') no-repeat;background-size: 100% 100%;}
+
+#crossPlatform{width: 100%;height: 648px;background: url('http://ooyaqsogx.bkt.clouddn.com/of-demo.jpg') no-repeat;background-size: 100% 100%;text-align: center;}
+#crossPlatform h3{padding-top: 44px;margin-bottom: 27px;font-size: 30px;color: #fff;}
+#crossPlatform p{font-size: 16px;color: #dadada;line-height: 26px;}
+#crossPlatform span{display: block;color: #eee;font-size: 16px;line-height: 26px;}
+
+#process{width: 100%;height: 648px;background: url('http://ooyaqsogx.bkt.clouddn.com/of-Process.jpg') no-repeat;background-size: 100% 100%;}
+#process h2{text-align: center;color: #fff;font-size: 30px;padding-top: 60px;letter-spacing: 6px;}
+#process .processCon{width: 963px;margin: 0 auto;height: 648px;}
+#process .processCon .threestep{margin-top: 174px;color: #ddd;text-align: center;width: 320px;border-right: 1px solid #fec12a;float: left;}
+#process .processCon .threestep h3{color: #fec12a;font-size: 24px;margin-bottom: 40px;}
+#process .processCon .threestep p{font-size: 16px;line-height: 30px;margin-bottom: 35px;}
+#process .processCon .threestep span{font-size: 16px;line-height: 30px;display: block;}
+
+#partner{width: 100%;height: 325px;background: url('http://ooyaqsogx.bkt.clouddn.com/of-partner.jpg') no-repeat;background-size: 100% 100%;}
+#partner .partnerCon{width: 990px;height: 325px;margin: 0 auto;}
+#partner .partnerCon h2{padding-top: 60px;font-size: 30px;text-align: center;letter-spacing: 6px;margin-bottom: 42px;}
+#partner .partnerCon img{margin-right: 47px;}
+
+#bottom{width: 100%;height: 325px;background-color: #343434;text-align: center;}
+#bottom .boCon{width: 990px;margin: 0 auto;position: relative;}
+#bottom h2{padding-top: 50px;color: #fff;font-size: 24px;font-weight: normal;letter-spacing: 8px;margin-bottom: 30px;}
+#bottom p{font-size: 14px;line-height: 24px;color: #9c9c9c;}
+#bottom span{font-size: 14px;word-spacing: 4px;color: #9c9c9c;}
+#bottom span i{font-style: normal;color: #4265ae;}
+#bottom .web{width: 318px;height: 38px;margin: 0 auto;margin-top: 24px;margin-bottom: 33px;}
+#bottom .web ul li{float: left;padding: 0 8px;cursor: pointer;}
+#bottom .web ul li a{width: 37px;height: 37px;display: block;}
+.qrcode{position: absolute;width: 308px;height: 272px;left: 0px;top: 50px;display: none;}
+.qr{width: 308px;height: 272px;position: relative;}
+.qr .closeQR{position: absolute;right: 10px;top: 3px;cursor: pointer;}

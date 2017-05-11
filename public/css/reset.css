@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: Helvetica,Arial,'微软雅黑';
+}
+*:not(input,textarea) {
+  -webkit-touch-callout: inherit;
+  -webkit-user-select: auto;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: Helvetica,Arial,'微软雅黑';
+}
+body {
+  width: 100%;
+  font-size: 14px;
+  color: #505050;
+  -webkit-touch-callout: inherit ;
+  -webkit-user-select: auto ;
+  background-color: #fff;
+  font-family: Helvetica,Arial,'微软雅黑';
+}
+a {
+  color: #505050;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover {
+  text-decoration: none;
+}
+button,input,select,textarea {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+dt,dd {
+  display: inline-block;
+}
+textarea,input {
+  resize: none;
+  outline: none;
+}
+textarea {
+  resize: none;
+  -webkit-appearance: none;
+}
+ul,ol,li {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
