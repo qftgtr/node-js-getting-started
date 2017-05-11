@@ -17,7 +17,7 @@
 #banner .banner1 .bor h3{line-height: 71px;text-align: center;font-size: 24px;color: #fff;}
 #banner .banner1 .email{width: 190px;height: 40px;position: absolute;top: 450px;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);border: 0;border-radius: 10px;background-color: #5c5c5c;text-align: center;color: #fff;}
 #banner .banner1 .read{cursor: pointer;width: 100px;height: 40px;background-color: #feba01;border: 0;color: #fff;font-size: 18px;border-radius: 8px;top: 506px;position: absolute;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);}
-#banner .banner3{background: url('http://ooyaqsogx.bkt.clouddn.com/of-new-banner3.jpg') no-repeat;background-size: 100% 100%;width: 100%;height: 648px;}
+#banner .banner3{background: url('http://ooyaqsogx.bkt.clouddn.com/of-new-banner3.jpg') no-repeat;background-size: 100% 100%;width: 100%;height: 620px;padding-top: 28px;}
 #banner .banner3 .bannerCon3{width: 1191px;height: 591px;margin: 0 auto;background: url('http://ooyaqsogx.bkt.clouddn.com/of-banner3Con.png') no-repeat;background-size: 100% 100%;position: relative;}
 #banner .banner3 .ofIOS{width: 293px;height: 60px;border: 2px solid #fff;display: block;position: absolute;left: 7%;top: 348px;}
 #banner .banner3 .ofIOS img{width: 32px;height: 38px;margin-top: 10px;margin-left: 37px;float: left;margin-right: 20px;}
