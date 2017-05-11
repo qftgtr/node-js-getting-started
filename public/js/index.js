@@ -56,7 +56,7 @@ $(function() {
   for (var i = 0; i < picNum.length; i++) {
     var picnum = picNum[i];
     picnum.index = i;
-    picnum.onclick = function() {
+    picnum.onmouseover = function() {
       $('#app .flex-control-nav li a').eq(this.index).click();
     }
   }

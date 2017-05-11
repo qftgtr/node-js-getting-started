@@ -17,11 +17,12 @@
 #banner .banner1 .bor h3{line-height: 71px;text-align: center;font-size: 24px;color: #fff;}
 #banner .banner1 .email{width: 190px;height: 40px;position: absolute;top: 450px;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);border: 0;border-radius: 10px;background-color: #5c5c5c;text-align: center;color: #fff;}
 #banner .banner1 .read{cursor: pointer;width: 100px;height: 40px;background-color: #feba01;border: 0;color: #fff;font-size: 18px;border-radius: 8px;top: 506px;position: absolute;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);}
-#banner .banner3{background: url('http://ooyaqsogx.bkt.clouddn.com/of-banner3.jpg') no-repeat;background-size: 100% 100%;position: relative;width: 100%;height: 648px;}
-#banner .banner3 .ofIOS{width: 293px;height: 60px;border: 2px solid #fff;display: block;position: absolute;left: 24.2%;top: 348px;}
+#banner .banner3{background: url('http://ooyaqsogx.bkt.clouddn.com/of-new-banner3.jpg') no-repeat;background-size: 100% 100%;width: 100%;height: 648px;}
+#banner .banner3 .bannerCon3{width: 1191px;height: 591px;margin: 0 auto;background: url('http://ooyaqsogx.bkt.clouddn.com/of-banner3Con.png') no-repeat;background-size: 100% 100%;position: relative;}
+#banner .banner3 .ofIOS{width: 293px;height: 60px;border: 2px solid #fff;display: block;position: absolute;left: 7%;top: 348px;}
 #banner .banner3 .ofIOS img{width: 32px;height: 38px;margin-top: 10px;margin-left: 37px;float: left;margin-right: 20px;}
 #banner .banner3 .ofIOS p{font-size: 24px;color: #fff;float: left;margin-top: 15px;}
-#banner .banner3 .ofAndroid{width: 293px;height: 60px;border: 2px solid #fff;display: block;position: absolute;left: 24.2%;top: 420px;}
+#banner .banner3 .ofAndroid{width: 293px;height: 60px;border: 2px solid #fff;display: block;position: absolute;left: 7%;top: 420px;}
 #banner .banner3 .ofAndroid img{width: 32px;height: 38px;margin-top: 10px;margin-left: 37px;float: left;margin-right: 20px;}
 #banner .banner3 .ofAndroid p{font-size: 24px;color: #fff;float: left;margin-top: 15px;}
 #banner .flex-control-paging li a.flex-active{background: #fec006;}
@@ -41,7 +42,8 @@
 #brain h2 b{font-size: 36px;}
 #brain h4{line-height: 30px;font-size: 16px;color: #505050;font-weight: normal;letter-spacing: 2px;}
 
-#bar{width: 100%;height: 648px;background: url('http://ooyaqsogx.bkt.clouddn.com/of-THE BAR.jpg') no-repeat;background-size: 100% 100%;z-index: 8;}
+#bar{width: 100%;height: 562px;background: url('http://ooyaqsogx.bkt.clouddn.com/of-barBG.jpg') no-repeat;background-size: 100% 100%;z-index: 8;padding-top: 86px;}
+.barCon{width: 1169px;height: 476px;margin: 0 auto;background: url('http://ooyaqsogx.bkt.clouddn.com/of-barText.png') no-repeat;background-size: 100% 100%;}
 
 #app{width: 100%;height: 648px;background-color: #fff;position: relative;}
 #app .thisApp{width: 31.25%;height: 648px;position: absolute;right: 24%;}
@@ -80,7 +82,8 @@
 #station h2{font-size: 30px;color: #515151;line-height: 178px;letter-spacing: 6px;}
 #station h2 b{font-size: 36px;}
 
-#fourspecial{width: 100%;height: 648px;background: url('http://ooyaqsogx.bkt.clouddn.com/of-fourspe.jpg') no-repeat;background-size: 100% 100%;}
+#fourspecial{width: 100%;height: 520px;background: url('http://ooyaqsogx.bkt.clouddn.com/of-new-fourspe.jpg') no-repeat;background-size: 100% 100%;padding-top: 128px;}
+#fourspecial .fourCon{width: 809px;height: 402px;margin-left: 33.6%; background: url('http://ooyaqsogx.bkt.clouddn.com/of-four-text.png') no-repeat;background-size: 100% 100%;}
 
 #crossPlatform{width: 100%;height: 648px;background: url('http://ooyaqsogx.bkt.clouddn.com/of-demo.jpg') no-repeat;background-size: 100% 100%;text-align: center;}
 #crossPlatform h3{padding-top: 44px;margin-bottom: 27px;font-size: 30px;color: #fff;}
@@ -91,7 +94,7 @@
 #process h2{text-align: center;color: #fff;font-size: 30px;padding-top: 60px;letter-spacing: 6px;}
 #process .processCon{width: 963px;margin: 0 auto;height: 648px;}
 #process .processCon .threestep{margin-top: 174px;color: #ddd;text-align: center;width: 320px;border-right: 1px solid #fec12a;float: left;}
-#process .processCon .threestep h3{color: #fec12a;font-size: 24px;margin-bottom: 40px;}
+#process .processCon .threestep h3{color: #fec12a;font-size: 24px;margin-bottom: 10px;}
 #process .processCon .threestep p{font-size: 16px;line-height: 30px;margin-bottom: 35px;}
 #process .processCon .threestep span{font-size: 16px;line-height: 30px;display: block;}
 
