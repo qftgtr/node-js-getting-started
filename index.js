@@ -22,8 +22,8 @@ app.get('/subscribe', function(request, response) {
 
   var options = {
     protocol: 'https:',
-    host: 'admin.officewell.co',
-    path: '/api/v1/feedback',
+    host: 'api.officewell.co',
+    path: '/v1/feedback',
     method: 'POST',
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',

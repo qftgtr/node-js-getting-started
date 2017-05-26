@@ -24,13 +24,10 @@ $(function() {
     if (regEmail.test(inputEmail)) {
       $.ajax({
         type: "get",
-        url: "http://www.9-a-m.com/subscribe",
+        url: "/subscribe",
         data: {email:$('.email').val()},        
         dataType : "jsonp",
-        jsonp: "callback",
-        success: function (data) {
-          alert('订阅成功!');
-        }
+        jsonp: "callback"
       });
       alert('订阅成功!');
     } else {
