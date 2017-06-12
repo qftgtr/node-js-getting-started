@@ -26,14 +26,15 @@
 			</div>
 			<div class="mynav">
 				<ul id="navConn">
-					<li data-index="0"><a href="#banner" style="color: #fec006;">首页</a></li>
-					<li data-index="1"><a href="#brain">The Bar & App</a></li>
-					<li data-index="2"><a href="#mange">空间管理</a></li>
-					<li data-index="3"><a href="#crossPlatform">优势</a></li>
-					<li data-index="4"><a href="#process">服务</a></li>
-					<li data-index="5"><a href="#bottom">联系</a></li>
+					<li data-index="0"><a onclick="goto(this, 0)" style="color: #fec006;">首页</a></li>
+					<li data-index="1"><a onclick="goto(this, 880)">The Bar & App</a></li>
+					<li data-index="2"><a onclick="goto(this, 2370)">空间管理</a></li>
+					<li data-index="3"><a onclick="goto(this, 4680)">优势</a></li>
+					<li data-index="4"><a onclick="goto(this, 5310)">服务</a></li>
+					<li data-index="5"><a onclick="goto(this, 6000)">联系</a></li>
 				</ul>
 			</div>
+			<div class="lan"><a href="index_en.html">EN</a></div>
 		</div>
 	</div>
 
@@ -51,7 +52,7 @@
 					</div>
 				</li>
 				<li>
-					<div class="banner2">	
+					<div class="banner2">
 					</div>
 				</li>
 				<li>
@@ -279,5 +280,69 @@
 	<script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
 	<script src="js/index.js"></script>
 	<script src="js/jquery.flexslider-min.js"></script>
+	<script>
+		$(window).scroll(function() {
+			var dTop = $(document).scrollTop();
+			if (dTop > 0) {
+					$('#nav').addClass('fixedNav');
+			} else {
+					$('#nav').removeClass('fixedNav');
+			}
+
+			var arr = [];
+			for (var i = 0; i < 6; i++) {
+				var left = $('#navConn a').eq(i).offset().left;
+				arr.push(left);
+			}
+
+			if(dTop < 800) {
+				$('.back').css({'left': arr[0], 'width': '66px'});
+				$('#navConn a').css('color', '#858585');
+				$('#navConn a').eq(0).css('color', '#fec006');
+			}
+
+			if(dTop > 800) {
+				$('.back').css({'left': arr[1], 'width': '139px'});
+				$('#navConn a').css('color', '#858585');
+				$('#navConn a').eq(1).css('color', '#fec006');
+			}
+
+			if(dTop > 900) {
+				$('.thisApp').addClass('animated zoomIn');
+			}
+
+			if(dTop > 1700) {
+				$('.floorimg').addClass('animated bounceInUp');
+			}
+
+			if(dTop > 2350) {
+				$('.back').css({'left': arr[2], 'width': '98px'});
+				$('#navConn a').css('color', '#858585');
+				$('#navConn a').eq(2).css('color', '#fec006');
+			}
+
+			if(dTop > 3900) {
+				$('.computer').addClass('animated fadeInLeft');
+			}
+
+			if(dTop > 4650) {
+				$('.back').css({'left': arr[3], 'width': '66px'});
+				$('#navConn a').css('color', '#858585');
+				$('#navConn a').eq(3).css('color', '#fec006');
+			}
+
+			if(dTop > 5300) {
+				$('.back').css({'left': arr[4], 'width': '66px'});
+				$('#navConn a').css('color', '#858585');
+				$('#navConn a').eq(4).css('color', '#fec006');
+			}
+
+			if(dTop > 5650) {
+				$('.back').css({'left': arr[5], 'width': '66px'});
+				$('#navConn a').css('color', '#858585');
+				$('#navConn a').eq(5).css('color', '#fec006');
+			}
+		})
+	</script>
 </body>
 </html>

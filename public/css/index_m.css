@@ -1,12 +1,17 @@
 #nav{width: 100%;background-color: #353434;height: 1rem;position: relative;}
 #nav .logo{position: absolute;left: 50%;top: 50%;transform: translateX(-50%) translateY(-50%);-webkit-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);}
 #nav .logo h1 img{width: 80%;height: 80%;margin-left: 10%;margin-top: 3%;}
-.swiper-slide{width: 100%;height: 3.48rem;}
-.swiper-slide img{width: 100%;height: 100%;}
+#nav .lan{position: absolute;right: .2rem;height: 1rem;line-height: 1rem;color: #fff;font-size: .36rem;}
+.swiper-slide{width: 100%;height: 5.87rem;}
+.swiper-slide .ofIOS{width: 2.66rem;height: .65rem;border: .02rem solid #fff;display: block;position: absolute;left: 10%;top: 3rem;}
+.swiper-slide .ofIOS img{width: .32rem;height: .38rem;margin-top: .12rem;margin-left: .2rem;float: left;margin-right: .1rem;}
+.swiper-slide .ofIOS p{font-size: .28rem;color: #fff;float: left;line-height: .65rem;}
+.swiper-slide .ofAndroid{width: 2.66rem;height: .65rem;border: .02rem solid #fff;display: block;position: absolute;left: 10%;top: 3.8rem;}
+.swiper-slide .ofAndroid img{width: .32rem;height: .38rem;margin-top: .12rem;margin-left: .2rem;float: left;margin-right: .1rem;}
+.swiper-slide .ofAndroid p{font-size: .28rem;color: #fff;float: left;line-height: .65rem;}
 
 #banner{width: 100%;height: 5.87rem;}
 #banner .swiper-container{height: 5.87rem;}
-#banner .swiper-container img{height: 5.87rem;}
 
 #smnews{margin-top: .7rem;padding: 0 .4rem;}
 #smnews .sm{width: 100%;margin-bottom: .5rem;}
@@ -36,7 +41,7 @@
 #mange h4{line-height: .4rem;font-size: .26rem;color: #505050;font-weight: normal;}
 
 #floorPlan{width: 100%;}
-#floorPlan .floortext{width: 100%;text-align: center;background: url('http://ooyaqsogx.bkt.clouddn.com/floorimg1.jpg') no-repeat;background-size: 100% 100%;}
+#floorPlan .floortext{padding: 0 .3rem;text-align: center;background: url('http://ooyaqsogx.bkt.clouddn.com/floorimg1.jpg') no-repeat;background-size: 100% 100%;}
 #floorPlan .floortext h3{line-height: .5rem;color: #fec12a;font-size: .36rem;padding-top: .4rem;margin-bottom: .26rem;letter-spacing: .05rem;}
 #floorPlan .floortext h4{font-size: .28rem;color: #fff;margin-bottom: .2rem;}
 #floorPlan .floortext p{font-size: .24rem;line-height: .4rem;padding-bottom: .4rem;color: #fff;}
@@ -49,7 +54,7 @@
 
 #fourspecial{width: 100%;height: 13.18rem;background: url('http://ooyaqsogx.bkt.clouddn.com/of-m-fourspe.jpg') no-repeat;background-size: 100% 100%;}
 
-#crossPlatform{width: 100%;height: 10.74rem;background: url('http://ooyaqsogx.bkt.clouddn.com/of-m-demo.jpg') no-repeat;background-size: 100% 100%;}
+#crossPlatform{padding: 0 .3rem;height: 10.74rem;background: url('http://ooyaqsogx.bkt.clouddn.com/of-m-demo.jpg') no-repeat;background-size: 100% 100%;}
 #crossPlatform h3{padding-top: .5rem;padding-bottom: .36rem;text-align: center;font-size: .36rem;color: #fff;font-weight: normal;letter-spacing: .05rem;}
 #crossPlatform p{font-size: .24rem;line-height: .42rem;color: #fff;text-align: center;}
 #crossPlatform span{font-size: .24rem;line-height: .42rem;color: #fff;text-align: center;display: block;}

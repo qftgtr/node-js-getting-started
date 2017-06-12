@@ -1,9 +1,9 @@
 $(function() {
 
   $('.sm').addClass('animated rotateIn');
-  
+
   $("#navConn").lavaLamp({
-    fx: "backout", 
+    fx: "backout",
     speed: 700,
     click: function(event, menuItem) {
         // var arr = [0, 800, 2350, 4650, 5300, 5650];
@@ -25,7 +25,7 @@ $(function() {
       $.ajax({
         type: "get",
         url: "/subscribe",
-        data: {email:$('.email').val()},        
+        data: {email:$('.email').val()},
         dataType : "jsonp",
         jsonp: "callback"
       });
@@ -58,69 +58,6 @@ $(function() {
     }
   }
 
-  $(window).scroll(function() {
-    var dTop = $(document).scrollTop();
-    if (dTop > 0) {
-        $('#nav').addClass('fixedNav');
-    } else {
-        $('#nav').removeClass('fixedNav');
-    } 
-
-    var arr = [];
-    for (var i = 0; i < 6; i++) {
-      var left = $('#navConn a').eq(i).offset().left;
-      arr.push(left);
-    }
-
-    if(dTop < 800) {
-      $('.back').css({'left': arr[0], 'width': '66px'});
-      $('#navConn a').css('color', '#858585');
-      $('#navConn a').eq(0).css('color', '#fec006');
-    }
-
-    if(dTop > 800) {
-      $('.back').css({'left': arr[1], 'width': '139px'});
-      $('#navConn a').css('color', '#858585');
-      $('#navConn a').eq(1).css('color', '#fec006');      
-    }
-
-    if(dTop > 900) {
-      $('.thisApp').addClass('animated zoomIn');
-    }
-
-    if(dTop > 1700) {
-      $('.floorimg').addClass('animated bounceInUp');
-    }
-
-    if(dTop > 2350) {
-      $('.back').css({'left': arr[2], 'width': '98px'});
-      $('#navConn a').css('color', '#858585');
-      $('#navConn a').eq(2).css('color', '#fec006');
-    }
-
-    if(dTop > 3900) {
-      $('.computer').addClass('animated fadeInLeft');
-    }
-
-    if(dTop > 4650) {
-      $('.back').css({'left': arr[3], 'width': '66px'});
-      $('#navConn a').css('color', '#858585');
-      $('#navConn a').eq(3).css('color', '#fec006');
-    }
-
-    if(dTop > 5300) {
-      $('.back').css({'left': arr[4], 'width': '66px'});
-      $('#navConn a').css('color', '#858585');
-      $('#navConn a').eq(4).css('color', '#fec006');
-    }
-
-    if(dTop > 5650) {
-      $('.back').css({'left': arr[5], 'width': '66px'});
-      $('#navConn a').css('color', '#858585');
-      $('#navConn a').eq(5).css('color', '#fec006');
-    }
-  })
-
   $('.closeQR').click(function(){
     $('.qrcode').css('display','none');
   })
@@ -130,3 +67,10 @@ $(function() {
   })
 
 })
+
+function goto(event, height) {
+  $(document).scrollTop(height);
+  let indexNode = event.parentNode.getAttribute("data-index");
+  $('#navConn a').css('color', '#858585');
+  $('#navConn a').eq(indexNode).css('color', '#fec006');
+}
