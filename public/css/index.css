@@ -104,9 +104,9 @@
 #process .processCon .threestep span{font-size: 16px;line-height: 30px;display: block;}
 
 #partner{width: 100%;height: 325px;background: url('http://ooyaqsogx.bkt.clouddn.com/of-partner.jpg') no-repeat center top;}
-#partner .partnerCon{width: 990px;height: 325px;margin: 0 auto;}
+#partner .partnerCon{width: 480px;height: 325px;margin: 0 auto;}
 #partner .partnerCon h2{padding-top: 60px;font-size: 30px;text-align: center;letter-spacing: 6px;margin-bottom: 42px;}
-#partner .partnerCon img{margin-right: 47px;}
+#partner .partnerCon img{margin-right: 88px;}
 
 #bottom{width: 100%;height: 325px;background-color: #343434;text-align: center;}
 #bottom .boCon{width: 990px;margin: 0 auto;position: relative;}
